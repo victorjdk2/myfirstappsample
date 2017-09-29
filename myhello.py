@@ -7,9 +7,10 @@ def main():
         arglist  = sys.argv
         print(len(sys.argv))
 
+	mylist = []
         for i in range(1, len(sys.argv)):
                 print(str(arglist[i]))
-                mylist = [arglist[i]]
+                mylist.append(arglist[i])
         print(mylist) 
 
 
